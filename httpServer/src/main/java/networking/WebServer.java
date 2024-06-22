@@ -1,3 +1,5 @@
+package networking;
+
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpContext;
 import com.sun.net.httpserver.HttpExchange;
@@ -5,11 +7,9 @@ import com.sun.net.httpserver.HttpServer;
 
 import java.io.IOException;
 import java.io.OutputStream;
-import java.lang.annotation.IncompleteAnnotationException;
 import java.math.BigInteger;
 import java.net.InetSocketAddress;
 import java.util.Arrays;
-import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 public class WebServer {
